@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "twitterautosave"
+version = "0.1.0"
+description = "Automatic save liked tweets."
+authors = ["originalFactor <2438926613@qq.com>"]
+license = "Apache License v2"
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9, <4.0"
+httpx = "^0.28.1"
+wget = "^3.2"
+python-box = "^7.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
